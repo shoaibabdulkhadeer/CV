@@ -274,10 +274,10 @@ body {
 
 }
 #footer i{
-            font-size: 2.4rem;
+            font-size: 3.4rem;
             margin: 22px;
             color: black;
-            
+          
 }
 
 #footer h3 {color: #ffffff;
@@ -285,4 +285,8 @@ body {
 }
 #footer p {
     font-size: 1.8rem;
+}
+#footer a{
+    padding: 50px;
+    height: 70px;
 }
