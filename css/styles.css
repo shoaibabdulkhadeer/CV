@@ -71,6 +71,11 @@ body {
       font-size: 3.1rem;
 
 }
+#dummy {
+    color: white;
+    font-family: cursive;
+    
+}
 
 .row p{
     font-size: 30px;
