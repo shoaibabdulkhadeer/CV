@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Carter+One&family=Josefin+Sans:wght@700&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Carter+One&family=Josefin+Sans:wght@700&family=Patrick+Hand&display=swap');
+
+body {
+   
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 600;
+}
+
+#title {
+    background-color:  #4285F4;
+    color: aliceblue;
+  
+}  
+
+.navbar-brand {
+    font-size: 3rem;
+}
+.navbar-nav {
+    font-size: 35px;
+    
+   
+}
+.navbar-nav li a {
+    margin: 1px 25px;
+    border-radius: 12px;
+    transition: 0.2s;
+    
+}
+.navbar-nav li a:hover {
+    border: 1px solid ;
+    border-radius: 12px;
+    padding: 10px;
+    
+    
+}
+
+.dropdown-item {
+    letter-spacing: 1px;
+    line-height: 2.3;
+    font-size: 25px;
+    font-weight: 500;
+}
+.dropdown-item:hover {
+    background-color:#0dcaf0;
+}
+
+.container-fluid {
+    padding: 2% 12% 7%;
+   
+}
+
+.row {
+    padding: 7% 2%;
+    margin-left: 5px;
+    
+    
+}
+
+
+#man-img {
+    height: 170px;
+    margin: 21px;
+}
+
+.row h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+      font-size: 3.1rem;
+
+}
+
+.row p{
+    font-size: 30px;
+    color: rgb(212, 209, 209);
+    font-family: 'Patrick Hand', cursive;
+    font-style: 200;
+  
+}
+ .row img {
+  border-radius: 20%;
+    height: 300px;
+   
+
+ }
+
+
+
+ .ronaldo{
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 400px;
+     right: 0;
+ }
+
+ .row button {
+     height: 50px;
+     width: 200px;
+     font-size: 22px;
+     margin: 8px;
+     transition: 0.2s;
+ }
+
+ .row button:hover {
+     letter-spacing: 1px;
+     width: 290px;
+ }
+
+  /* features css */
+  .row {
+      text-align: center;
+  }
+  #features {
+      background-color: rgb(255, 255, 255);
+      
+  }
+  #features h3{font-size: 32px;
+     color: brown;
+
+  }
+
+  #features p {
+      color: rgb(95, 89, 82);
+      font-family: 'Bebas Neue', cursive;
+    }
+  
+    .first-skill img{
+        height: 98px;
+    margin-bottom: 24px;
+    transition: 0.2s;
+    }
+    .first-skill img:hover {
+        transform: scaleX(1.2);
+        filter: invert(100%);
+    
+    }
+
+    .second-skill img {
+        height: 98px;
+        margin-bottom: 24px;
+        transition: 0.2s;
+    }
+    .second-skill img:hover {
+        transform: scaleX(1.1);
+        filter: invert(100%);
+        
+    }
+    .third-skill img{
+        height: 98px;
+        margin-bottom: 24px;
+        transition: 0.2s;
+
+    }
+    .third-skill img:hover {
+        transform: scaleX(1.1);
+        
+
+    }
+
+
+    #carouselExampleControls {
+        height: 500px;
+        background-color: #4285F4;
+        text-align: center;
+    }
+
+    .carousel-item {
+       padding-top:120px ;
+    }
+    .carousel-item h2 {
+        font-size: 3rem;
+        color: white;
+        font-weight: 400;
+    }
+    .carousel-item em {
+        font-size: 2rem;
+        margin-left: 16px;
+        color: rgb(255, 255, 255);
+    }
+
+    .testimonials-image {
+        width: 120px;
+        border-radius: 90%;
+    }
+  
+    #slide-btn {
+     width: 95px;
+    padding: 50px;
+    filter: invert(-3);
+    }
+   
+    #br {
+        background-color: rgb(219, 207, 207);
+        height: 1px;
+    }
+  
+  
+    #press {
+        background-color: #4285F4;
+        text-align: center;
+      
+    }
+    #press img {
+        padding: 44px;
+        height: 200px;
+       
+    }
+
+ #pricing {
+     text-align: center;
+ }
+
+
+ .pricing-head {
+    padding-top: 95px;
+    font-size: 3rem;
+   
+ }
+ .pricing-head img{
+     border-radius: 70%;
+     padding-bottom: 29px;
+ }
+
+
+ .card-header {
+     background-color: #2f2f2f;
+     color: aliceblue;
+ }
+ .card-body {
+     background-color: #4285F4;
+ }
+
+ #cardrow {
+     padding: 2%;
+ }
+
+ #cta {
+     background-color: #ffffff;
+     padding: 4% 6% 5%;
+     text-align: center;
+       font-size: 2rem;
+       color: rgb(0, 0, 0);
+ }
+ #cta h3 {
+     font-size: 2.5rem;
+ }
+#cta button {
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    margin: 8px;
+    transition: 0.2s;
+}
+
+#cta button:hover {
+    letter-spacing: 1px;
+    width: 290px;
+}
+
+#footer{ text-align: center;
+         padding: 80px;
+         background-color: #4285F4;
+         color: #ffffff;
+          
+
+}
+#footer i{
+            font-size: 2.4rem;
+            margin: 22px;
+            color: black;
+            
+}
+
+#footer h3 {color: #ffffff;
+   
+}
+#footer p {
+    font-size: 1.8rem;
+}
